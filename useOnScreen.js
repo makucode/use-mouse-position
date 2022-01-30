@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 
+// Checks if Element is in viewport
+
 export default function useOnScreen(ref, rootMargin = "0px") {
     const [isIntersecting, setIntersecting] = useState(false);
 
